@@ -17,6 +17,8 @@ export default function App() {
             diceId: nanoid()
         }));
         setDiceData(initialState)
+        setAllLocked(false)
+        setHasWon(false)
     }
 
     useEffect(() => {
